@@ -1,0 +1,7 @@
+[2023/02/16 09:44:38] machineId:<Your Machine ID Here>
+[2023/02/16 09:44:38] pythonBinary:python
+[2023/02/16 09:44:38] Server:https://developers.botcity.dev
+[2023/02/16 09:44:38] login:developers
+ERROR: 400 Bad Request: [{"message":"Organization not found."}] 400 BAD_REQUEST
+[2023/02/16 09:44:39] Cannot invoke "org.springframework.http.ResponseEntity.getBody()" because the return value of "dev.botcity.api.client.login.organization.LoginOrganizationService.loginCookieCli(dev.botcity.api.client.login.organization.LoginOrganizationDTO)" is null
+[2023/02/16 09:44:46] Cannot invoke "org.springframework.http.ResponseEntity.getBody()" because the return value of "dev.botcity.api.client.task.TaskService.getTaskFromQueue(String, dev.botcity.api.client.login.GetToken)" is null
